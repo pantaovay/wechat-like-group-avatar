@@ -1,0 +1,7 @@
+[Tt]humbs.db
+*.DS_Store
+*~
+.idea
+vendor
+codecept.phar
+tests/_output/*

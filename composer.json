@@ -1,0 +1,22 @@
+{
+  "name": "pantaovay/wechat-like-group-avatar",
+  "homepage": "https://github.com/pantaovay/wechat-like-group-avatar",
+  "license": "MIT",
+  "description": "Generate wechat like group avatar",
+  "authors": [
+    {
+      "name": "Tao Pan",
+      "homepage": "https://github.com/pantaovay"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "ext-gd": "*",
+    "ext-fileinfo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pantaovay\\WechatLikeGroupAvatar\\": "src/"
+    }
+  }
+}
