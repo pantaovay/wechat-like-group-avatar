@@ -78,7 +78,7 @@ class Generator
             case 0:
                 return;
             case 1:
-                $this->putImageOnCanvas($this->srcImagesPath[0], 0, 0, $this->imageFullSize);
+                $this->putImageOnCanvas($this->srcImagesPath[0], $this->canvasSize / 4, $this->canvasSize / 4, $this->imageFullSize);
 
                 return;
             case 2:
@@ -170,8 +170,8 @@ class Generator
                 $dstY,
                 0,
                 0,
-                $dstSize,
-                $dstSize,
+                $dstSize / 2,
+                $dstSize / 2,
                 imagesx($srcImage),
                 imagesy($srcImage)
             );
